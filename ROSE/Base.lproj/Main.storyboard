@@ -1,26 +1,2699 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NSy-Kg-uyd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--ROSE-->
+        <scene sceneID="eWu-8H-Sl6">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="whC-4e-bo7" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="dZY-RW-W3Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="s6i-SB-Oro"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="bm0-MW-axn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="16992199_1081929358602353_5909765387037560611_o" translatesAutoresizingMaskIntoConstraints="NO" id="jrA-Py-Oau">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dcT-DA-kQL">
+                                <rect key="frame" x="0.0" y="64" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="J5g-hL-eLb" kind="embed" id="uNg-Z1-Tas"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ROSE" image="rose bar icon3" id="aGi-0e-RoY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0A-gu-1P9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656.8" y="-139.880059970015"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="jNf-Im-akp">
+            <objects>
+                <tableViewController id="J5g-hL-eLb" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bXe-4g-Psz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="173"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="Album Track" id="MpW-W3-Zzg">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="MYR-Xg-bnv" detailTextLabel="GOI-9g-mVq" rowHeight="48" style="IBUITableViewCellStyleValue1" id="n2F-Mh-nVj">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="48"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="n2F-Mh-nVj" id="FpS-vY-kQm">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="DYSTOPIA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MYR-Xg-bnv">
+                                                    <rect key="frame" x="15" y="14" width="83.5" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:38" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GOI-9g-mVq">
+                                                    <rect key="frame" x="324" y="14" width="36" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="W7i-Od-lDi" kind="show" id="MTh-2J-Ryn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="xuX-a3-bFc" detailTextLabel="znu-r6-p2p" rowHeight="49" style="IBUITableViewCellStyleValue1" id="REk-ZS-fdn">
+                                        <rect key="frame" x="0.0" y="76" width="375" height="49"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="REk-ZS-fdn" id="2o7-uG-IVb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="48.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="WAKE ME UP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xuX-a3-bFc">
+                                                    <rect key="frame" x="15" y="14" width="102.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:30" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="znu-r6-p2p">
+                                                    <rect key="frame" x="324.5" y="14" width="35.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="6Wn-3a-sEY" kind="show" id="0L0-SQ-pdq"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="WdM-Mc-fwd" detailTextLabel="Er1-Ci-c87" rowHeight="46" style="IBUITableViewCellStyleValue1" id="LkP-Dr-ho9">
+                                        <rect key="frame" x="0.0" y="125" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LkP-Dr-ho9" id="xoh-Ja-KGj">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="DIAMOND 4 YA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WdM-Mc-fwd">
+                                                    <rect key="frame" x="15" y="13" width="118.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:30" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Er1-Ci-c87">
+                                                    <rect key="frame" x="324.5" y="13" width="35.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="hhN-Ws-Xzb" kind="show" id="M9w-4v-oqH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="J5g-hL-eLb" id="aaF-NA-eZG"/>
+                            <outlet property="delegate" destination="J5g-hL-eLb" id="Oq6-9M-btT"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N2S-k3-4Y2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2416.8000000000002" y="-174.06296851574214"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="l4t-2k-Gdf">
+            <objects>
+                <viewController id="W7i-Od-lDi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C3f-aP-FwW"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wwz-Nf-0T6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sy2-Oc-FPy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="173"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C4ytVanVYAAxFSt" translatesAutoresizingMaskIntoConstraints="NO" id="reg-Pd-O98">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cc1-qX-osE">
+                                <rect key="frame" x="59" y="-348" width="269" height="489"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="F8I-Sd-ULO" kind="embed" id="Hyf-Sw-qAq"/>
+                                </connections>
+                            </containerView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2n7-BW-daN">
+                                <rect key="frame" x="59" y="100" width="269" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作詞:JQ/姜銀有/率熙/方容國 
+作曲:Steven Lee/Jimmy Richard/Sean Alexander/Sammy Naja 
+編曲:Steven Lee/Sean Alexander/Sammy Naja</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="9"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="DYSTOPIA" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dEE-td-MJE">
+                                <rect key="frame" x="59" y="64" width="262" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btZ-vZ-amf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="3241" y="-694"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="thB-aF-rBE">
+            <objects>
+                <viewController id="F8I-Sd-ULO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="REo-kg-5nA"/>
+                        <viewControllerLayoutGuide type="bottom" id="LZr-aJ-mpU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yHL-uw-31M">
+                        <rect key="frame" x="0.0" y="0.0" width="269" height="489"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9Xd-Vp-siJ">
+                                <rect key="frame" x="0.0" y="0.0" width="269" height="489"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Oh something something about you something something about you
+ 아니라고 믿어왔던 현실  
+從不相信的事實 아니기를 바래왔던 진실  
+曾希望不是這樣的事實
+ 세상은 전부 캄캄해  
+世上一片黑暗 목이 조여와 갑강해  
+喉嚨被勒得透不過氣
+ 하나의 거짓 위에 쌓인  
+在一個虛假的世界上打滾 수 많은 거짓의 향연  
+充斥著數萬個謊言的成見
+ 웃기지도 않아 이제 現在連笑也不行 더 이상 속아주지도 않아 再也不會受騙了
+ 흐려진 경계선 앞에 在模糊的界限前 그대로 멈춰서 就這樣停下來 얼룩진 환상을 바라봐 看著那褪色的幻象 모든게 무너졌어 全都消失了
+ 유토피안 없어 그건 도피야 再沒有 utopia 那只是 topia 이제 wake up wake up wake up 現在 wake up wake up wake up
+
+세상을 밟고 일어나 踩著這個世界站起來吧 뒤집혀 버린 세계야 把這個世界推翻
+ I can't, I can't stop DYSTOPIA C'mon, it's going down
+ 모두 바꿔봐 改變一切吧 어둠을 품은 진짜야 迎來真正的黑暗 
+I can't, I can't stop DYSTOPIA
+
+닫혀 버린 나를 깨워 把封閉的我喚醒 가면을 벗어 do it better 假面具丟掉 do it better 외쳐 걸어 내가 가는 길에 在我自己的路上咆哮 이래저래 상관 말고 shut up 不在乎所有 shut up 
+각자의 유초피안 다른 모습이야 各自的 utopian 都是不同的 내가 동경하는 곳은 누구에겐 지옥이야 我所前往的地方 對那個誰而言是地獄啊 갈 때까지 가는 거야 boy 會一直走下去的 boy 빛에 비친 흑백의 new world 光芒照射著的黑白 new world
+
+언제까지 부정할 수 없어 我不能保證能到什麼時候 꿈에서 깨어날 시간 從夢中醒來的時間 꿈을 쫓아 그 시간조차 追逐夢想的時間 아까워졌잖아 很可惜不是嗎 
+망설일 시간 따위 없어 沒時間猶豫了 세상의 민낯을 봐봐 看看這世界的真面目吧 진실이 진실이 아니게 되잖아 事實 事實 全都是假的 알았던 모든게 거짓이 되잖아 你明明知道這都是謊言
+현실이 추락한 곳에 남겨진 이데아 在模糊的界限前 所剩下的理論 정의란 이름의 노름판 가치는 사라졌어 以正義為名的賭局 已經不復在
+
+유토피안 없어 그건 도피야 再沒有 utopia 那只是 topia 이제 wake up wake up wake up 現在 wake up wake up wake up
+
+세상을 밟고 일어나 踩著這個世界站起來吧 뒤집혀 버린 세계야 把這個世界推翻 
+I can't, I can't stop DYSTOPIA C'mon, it's going down 
+모두 바꿔봐 改變一切吧 어둠을 품은 진짜야 迎來真正的黑暗 I can't, I can't stop DYSTOPIA
+
+암흑속에서 손을 흔들어 在黑暗之中揮著手 본 적 없었던 새로운 세상 在從沒見過的 嶄新的世界中 다시 시작해 再次啟航 
+세상을 밟고 일어나 踏著這個世界站起來吧 I can't, I can't stop DYSTOPIA C'mon, it's going down 모두 뒤집어 全都推翻吧 마두한 나의 세계야 面對著我的世界 
+I can't, I can't stop DYSTOPIA
+
+Look into my world Baby you got Look into my world Baby you got Look into my world Baby you got
+ Wake up Wake up Wake up Baby you got Baby you got Baby you got Baby you got
+
+</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OFS-jc-Y2K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3916" y="-694"/>
+        </scene>
+        <!--B.A.P-->
+        <scene sceneID="Y8H-Mm-yU9">
+            <objects>
+                <tableViewController id="4af-f2-BJ9" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TeW-gO-i6p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                        <sections>
+                            <tableViewSection id="mJ0-ir-p0S">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="198" id="hzp-aj-ldN" userLabel="BYG">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hzp-aj-ldN" id="KFS-XB-BLT">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="197.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BAP-Bang-Yong-Guk-Himchan_1487778560_af_org" translatesAutoresizingMaskIntoConstraints="NO" id="B2L-BM-I8d">
+                                                    <rect key="frame" x="0.0" y="-5" width="375" height="208"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyf-GO-hxB">
+                                                    <rect key="frame" x="21" y="133" width="140" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">方容國
+Bang Yong Guk</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Dbk-fi-fhb" kind="push" id="th6-ia-Pyr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="198" id="TbN-9o-aFi" userLabel="KHC">
+                                        <rect key="frame" x="0.0" y="198" width="375" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TbN-9o-aFi" id="av9-aS-fJP">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="197.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3d325eab32c4029ff3a431b2f97df7bd" translatesAutoresizingMaskIntoConstraints="NO" id="X2F-g2-sxR">
+                                                    <rect key="frame" x="0.0" y="-5" width="375" height="208"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5k-gf-0YX">
+                                                    <rect key="frame" x="219" y="125" width="140" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">金力燦
+Kim Him Chan</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="R1V-hT-1VQ" kind="push" id="D3T-8l-kUO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="198" id="dc9-P9-OwX" userLabel="JDH">
+                                        <rect key="frame" x="0.0" y="396" width="375" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dc9-P9-OwX" id="PPK-eQ-qTI">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="197.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="大賢" translatesAutoresizingMaskIntoConstraints="NO" id="iiN-10-gfP">
+                                                    <rect key="frame" x="0.0" y="-5" width="375" height="208"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zli-ZC-RJ4">
+                                                    <rect key="frame" x="21" y="133" width="140" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">鄭大賢
+Jung Dae Hyun</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="c0k-72-bfE" kind="push" id="tnS-D1-J84"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="198" id="t1f-0U-QW7" userLabel="YYJ">
+                                        <rect key="frame" x="0.0" y="594" width="375" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="t1f-0U-QW7" id="0R7-oE-Eza">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="197.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20170222_youngjae-2" translatesAutoresizingMaskIntoConstraints="NO" id="aGz-OD-Tf1">
+                                                    <rect key="frame" x="0.0" y="-5" width="375" height="208"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dX9-WZ-GN7">
+                                                    <rect key="frame" x="227" y="133" width="140" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">劉永才
+Yoo Young Jae</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Fm2-gZ-SOt" kind="push" id="uad-uR-EAl"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="198" id="Plf-Ih-XxP" userLabel="MJU">
+                                        <rect key="frame" x="0.0" y="792" width="375" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Plf-Ih-XxP" id="XYY-gP-Oeq">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="197.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="16903537_1225408067576146_7028287280252417636_o" translatesAutoresizingMaskIntoConstraints="NO" id="ovf-hl-o6V">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="208"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfE-Kh-6eD">
+                                                    <rect key="frame" x="21" y="133" width="140" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">文鐘業
+Moon Jong Up</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="SB5-Gy-Oso" kind="push" id="Ctd-mG-teX"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="198" id="Mea-8N-3Ff" userLabel="ZELO">
+                                        <rect key="frame" x="0.0" y="990" width="375" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mea-8N-3Ff" id="rRv-HX-jm9">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="197.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BAP-Zelo-Youngjae_1487693104_af_org" translatesAutoresizingMaskIntoConstraints="NO" id="KUH-Kv-mJi">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="208"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="who-ss-H5Y">
+                                                    <rect key="frame" x="227" y="133" width="140" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">崔準烘
+Zelo</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="NUO-ON-E1K" kind="push" id="T7a-ma-hRF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="43" id="U67-mU-QTr">
+                                        <rect key="frame" x="0.0" y="1188" width="375" height="43"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U67-mU-QTr" id="cej-Z1-ijS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="42.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="4af-f2-BJ9" id="K3x-fn-NQc"/>
+                            <outlet property="delegate" destination="4af-f2-BJ9" id="PzJ-Cz-dwG"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="B.A.P" image="bap icon7" id="15O-iD-0zS"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LYD-eE-hgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1816.8" y="558.17091454272872"/>
+        </scene>
+        <!--方容國-->
+        <scene sceneID="FWh-NH-gRX">
+            <objects>
+                <viewController id="Dbk-fi-fhb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1z5-nF-aZ1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bue-Xz-LQi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CAO-lH-jaS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bap-bang-yongguk-hiatus-health-break-rose-teaser-2017" translatesAutoresizingMaskIntoConstraints="NO" id="uSU-bW-QkC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="生日：1990年3月31日 身高：180cm　 體重：60kg 星座：白羊座　 血型：O型 特長：作詞、作曲、Rap" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ukP-ep-Mpe">
+                                <rect key="frame" x="16" y="203" width="343" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cJY-ms-Xib">
+                                <rect key="frame" x="16" y="141" width="305" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <string key="text">LEADDER / RAPPER 
+方容國 / 방용국 / Bang Yong Guk </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="方容國" id="ksY-9N-g7S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V4o-fZ-RnV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2628" y="557.27136431784118"/>
+        </scene>
+        <!--鄭大賢-->
+        <scene sceneID="9H3-mI-SRd">
+            <objects>
+                <viewController id="c0k-72-bfE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Fu-fb-3Rr"/>
+                        <viewControllerLayoutGuide type="bottom" id="pGP-Hw-JBS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lrs-1S-3pk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="111213980_5" translatesAutoresizingMaskIntoConstraints="NO" id="zZl-Bh-TFh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPV-g5-nwq">
+                                <rect key="frame" x="29" y="87" width="268" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">MAIN VOCAL
+鄭大賢 / 정대현 / Jung Dae Hyun</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="生日：1993年6月28日 身高：178cm 體重：63kg 星座：巨蟹座 血型：A型 特長：唱歌（高音）" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tyN-W1-9MU">
+                                <rect key="frame" x="212" y="145" width="163" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="鄭大賢" id="JVY-ka-gYs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="urR-6v-wpQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2608.8000000000002" y="1210.344827586207"/>
+        </scene>
+        <!--文鐘業-->
+        <scene sceneID="S6w-0r-ET0">
+            <objects>
+                <viewController id="SB5-Gy-Oso" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="35X-S3-MST"/>
+                        <viewControllerLayoutGuide type="bottom" id="KPC-aG-wEk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jEC-q6-xkk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="16832230_1225408004242819_3902463532637844966_n" translatesAutoresizingMaskIntoConstraints="NO" id="pE5-N3-XD5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3m-VY-URB">
+                                <rect key="frame" x="16" y="148" width="268" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">MAIN DANCER / SUB VOCAL
+文鐘業 / 문종업 / Moon Jong Up</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="生日：1995年2月6日 身高：176cm 體重：66kg 星座：水瓶座 血型：B型 特長：跳舞 " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QB4-sp-MIW">
+                                <rect key="frame" x="16" y="211" width="163" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="文鐘業" id="VgV-Qs-4Am"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LS3-17-fiT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2600.8000000000002" y="1878.7106446776613"/>
+        </scene>
+        <!--崔準烘-->
+        <scene sceneID="NDZ-qc-Kv3">
+            <objects>
+                <viewController id="NUO-ON-E1K" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rr1-sv-2OG"/>
+                        <viewControllerLayoutGuide type="bottom" id="eKD-Q6-WLI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K9h-B4-wyN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="111230559_17" translatesAutoresizingMaskIntoConstraints="NO" id="vpU-z5-LjL">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="外號：小番茄 生日：1996年10月15日 身高：185cm 體重：63kg 星座：天秤座 血型：A型 特長：Beat-Box" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tG7-nB-NdR">
+                                <rect key="frame" x="10" y="486" width="163" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiE-QG-Gf8">
+                                <rect key="frame" x="10" y="428" width="323" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">RAPPER / LEADER DANCER
+姓名：崔準烘 / 최준홍 / ChoiJunHong</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="崔準烘" id="ceG-m1-rcZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nOp-6t-25Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3384.8000000000002" y="2006.4467766116943"/>
+        </scene>
+        <!--劉永才-->
+        <scene sceneID="HeP-pN-uGq">
+            <objects>
+                <viewController id="Fm2-gZ-SOt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fo5-oJ-KOe"/>
+                        <viewControllerLayoutGuide type="bottom" id="UBe-g3-F1U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PZN-H5-DHA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="111223743_16" translatesAutoresizingMaskIntoConstraints="NO" id="gIA-Sd-7am">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="生日：1994年1月24日 身高：178cm 體重：65kg 星座：水瓶座 血型：AB型 特長：唱歌，睡覺" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Z8G-eh-1nb">
+                                <rect key="frame" x="16" y="507" width="163" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1V-Pb-ofv">
+                                <rect key="frame" x="16" y="449" width="268" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">LEADER VOCAL
+劉永才 / 유영재 / Yoo Young Jae</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="劉永才" id="WFN-BC-05y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PgE-hk-YP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3336.8000000000002" y="1282.3088455772115"/>
+        </scene>
+        <!--金力燦-->
+        <scene sceneID="bnv-uQ-dei">
+            <objects>
+                <viewController id="R1V-hT-1VQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W8U-S6-BFd"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Od-dz-89D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rqW-QB-iX8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="111238165_30" translatesAutoresizingMaskIntoConstraints="NO" id="0j2-LU-q7k">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HNd-oP-p0L">
+                                <rect key="frame" x="16" y="434" width="305" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <string key="text">VOCAL / VISION 
+金力燦 / 김힘찬 / Kim Him Chan</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="生日：1990年4月19日 身高：180cm　 體重：69kg 星座：白羊座　 血型：O型 特長：吉他、韓國國樂 " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mQO-W3-jDE">
+                                <rect key="frame" x="16" y="497" width="343" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES"/>
+                                </accessibility>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="金力燦" id="wHh-rY-K7e"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9YB-El-AHu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3285.5999999999999" y="555.47226386806597"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="9d1-Iu-cQX">
+            <objects>
+                <tabBarController id="lfl-s1-OFP" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1JY-hy-Nvv"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="zAQ-zh-XzA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4af-f2-BJ9" kind="relationship" relationship="viewControllers" id="hWl-cS-tc4"/>
+                        <segue destination="whC-4e-bo7" kind="relationship" relationship="viewControllers" id="M0o-Qb-UOg"/>
+                        <segue destination="5zD-x8-OHv" kind="relationship" relationship="viewControllers" id="rve-UR-poX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bYP-aH-q5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="92"/>
+        </scene>
+        <!--NOIR-->
+        <scene sceneID="Ddt-iT-RF3">
+            <objects>
+                <viewController id="5zD-x8-OHv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m13-uo-KEt"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Jz-bt-EoO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0wy-rx-PB6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BAP NOIR" translatesAutoresizingMaskIntoConstraints="NO" id="YWW-65-Ljf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uQ4-Tm-8mY">
+                                <rect key="frame" x="0.0" y="64" width="375" height="494"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="hAE-VR-Yfl" kind="embed" id="3Yf-iH-0Ai"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="NOIR" image="noir icon4" id="xym-G9-Clz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fh3-wT-GhI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="818.14092953523243"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EuT-lZ-P55">
+            <objects>
+                <navigationController id="NSy-Kg-uyd" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o8i-au-Pdd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="lfl-s1-OFP" kind="relationship" relationship="rootViewController" id="vaU-SS-rPT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mzc-9g-kb9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-97" y="93"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zGD-xU-5FQ">
+            <objects>
+                <viewController id="y7F-xZ-gKv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VvO-NK-hJs"/>
+                        <viewControllerLayoutGuide type="bottom" id="rRO-m2-0Vg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rr9-GG-pP4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b.a.p-noir1" translatesAutoresizingMaskIntoConstraints="NO" id="xAf-Uo-Wqr">
+                                <rect key="frame" x="0.0" y="30" width="375" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ao8-lw-FIC">
+                                <rect key="frame" x="36" y="313" width="302" height="352"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">If I never knew you
+If I never knew the love 
+I just wanna feel this moment
+
+Le Noir
+
+If I never knew you 
+If I never knew the love 
+I don't hate you like yesterday</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3nf-H1-Vil">
+                                <rect key="frame" x="36" y="244" width="302" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：方容國
+作 曲：方容國，Kim Chang Lak，Kang Ki Hoon，Ji Woo　
+編 曲：Kang Ki Hoon，Ji Woo </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="LE NOIR" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1bB-BL-Vqr">
+                                <rect key="frame" x="22" y="208" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fjE-1C-eDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14" y="1428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CfQ-R1-FbX">
+            <objects>
+                <viewController id="Ykg-PB-tud" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bu6-BI-wae"/>
+                        <viewControllerLayoutGuide type="bottom" id="fLl-ft-3Oc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NQW-rf-dwc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="84dd9321d035afc81351306a1bf8ffc30cd8a2b4_hq" translatesAutoresizingMaskIntoConstraints="NO" id="hFS-iS-MEm">
+                                <rect key="frame" x="0.0" y="43" width="375" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xuT-mf-N8B">
+                                <rect key="frame" x="36" y="310" width="302" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">We can skydive free fall 
+Skydive free fall
+We can skydive we go 
+在展開的世界上 
+把我釋放 Go to the other side 
+
+Catch catch light 
+將你帶走 想要 Back in time 
+相信我跟我走 
+Baby Let's ride 
+
+黑暗中呼喚我的 只有這傷痛 Fantasy (Woo) Yes, That's right 
+亮眼的 Spotlight 
+照亮我之後 
+飛得更高 
+Baby, We can fly 
+
+Just let go, 相信我 跳吧 
+把身體拋起來 (Bang)
+
+無邊無際的 Sky 
+我如彗星般 Fly
+更用力拉拽 我的身體 
+Out of control 
+
+拋開一切 
+Skydive （燃燒熱情 Dynamite） 
+Skydive （把一切都無畏地拋開） 
+把速度提高 把心臟交給我 
+
+Skydive （這世上全部 Do we rock)
+Skydive （將身體拋起 It's do or die） 
+我就這樣 我就這樣 向著你的空間 
+(We can skydive free fall) 
+
+Yeah 把腳步拋開 
+Go with me 
+快速地奔跑 Come with me 
+(You know, You know, 
+You know, You know) 
+(We can skydive free fall)
+
+Let me go yo begin 
+Again 我眼中閃爍著 
+更新鮮的世界 
+Ti-ti-time is tickin' 
+(We can skydive free fall) 
+
+漸漸湧來的 Dark 
+衝擊著全身的 Beat 
+再次挺住 戰勝一切 I'm in control 
+
+拋開一切 
+Skydive （燃燒熱情 Dynamite） 
+Skydive （把一切都無畏地拋開） 
+把速度提高　把心臟交給我 
+
+Skydive （這世上全部 Do we rock） 
+Skydive （將身體拋起 It's do or die）
+我就這樣 我就這樣 向著你的空間 
+
+Oh, 想要尋找你 
+We can skydive free fall
+ (Falling down with you) 
+結束了盜走你的 Game 
+結果我是只屬於你的 Champ 
+We can skydive free fall 
+
+Come with me! 5, 4, 3, 2, 1 
+
+拋開一切 
+Skydive（燃燒熱情 Dynamite） 
+Skydive（把一切都無畏地拋開） 
+抓住我的手（抓住我） 確認我的心 
+
+Skydive （這世上全部 Do we rock） 
+Skydive （將身體拋起 It's do or die） 
+你就這樣　相信我　等著我 
+ We can skydive free fall 
+We can skydive free fall 
+(I'm falling for you) 
+We can skydive free fall</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="usq-UO-f7D">
+                                <rect key="frame" x="41" y="257" width="302" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：方容國，Mafly，Ponde，Rjanah，Dear.D 
+作 曲：Choi Jin Seok，Tim Hawes，Obi Mhondera 
+編 曲：Choi Jin Seok </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SKYDIVE" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LnC-w4-umF">
+                                <rect key="frame" x="21" y="222" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMW-5t-erN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13.6" y="2050.5247376311845"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9jd-jG-Z92">
+            <objects>
+                <viewController id="XkK-VU-pDf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lDY-HK-rmV"/>
+                        <viewControllerLayoutGuide type="bottom" id="xAY-rw-K9o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QZo-Gp-RNY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BAP-Noir" translatesAutoresizingMaskIntoConstraints="NO" id="Vip-T1-0tg">
+                                <rect key="frame" x="0.0" y="43" width="375" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1lm-li-egc">
+                                <rect key="frame" x="36" y="310" width="302" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">冰冷看著的 我的眼神 
+陌生的感覺 很清晰 
+那是什麼 因為你 像瘋了一樣苦惱 
+
+Woo 不是這樣的 一天都要好幾次 
+反問又欺騙 再也回不去 
+看到傷心的表情嗎 It's broken day 
+
+時間的碎片 Tick Tock Tick Tock 
+變得緩慢 而又逐漸淡化 
+就像忘了你一樣 笑著 No No No Way 
+看不見 
+今天也是 明天也是 等待著夜晚的盡頭
+
+Fermata 再次回來 
+Fermata 擁抱我 
+Fermata Fermata 
+在這場面結尾 能夠找到你嗎 
+
+連準備的時間都不曾有 便離開的你 
+我迷了路 
+
+That it's over 就算痛也不能哭 
+Woo 不是這樣的 一天都要好幾次 
+反問又欺騙 再也回不去 
+看到傷心的表情嗎 It's broken day 
+
+時間的碎片 Tick Tock Tick Tock 
+變得緩慢 而又逐漸淡化 
+就像忘了你一樣 笑著 No No No Way 
+看不見 
+今天也是 明天也是 等待著夜晚的盡頭
+
+Fermata 再次回來 
+Fermata 擁抱我 
+Fermata Fermata 
+在這場面結尾 能夠找到你嗎 
+
+把我纏繞的 濃郁的香氣 
+只變得熟悉 
+在哪裡 把手伸開卻抓不住你 
+
+向著你的想念 Run, Run, Run 
+再次變大 看不到盡頭 
+漸漸粉碎 No, No, No Way 
+我怎麼活下去 
+今天也 明天也 只等著你回來 
+
+Fermata 再次回來 
+Fermata 擁抱我 
+Fermata Fermata 
+在這場面結尾 能夠找到你嗎</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OtA-Dk-YmY">
+                                <rect key="frame" x="41" y="257" width="302" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：方容國,Kim Chang Lak,Han Kyung Soo,Kim Seo Jung
+作 曲：方容國，Kim Chang Lak
+編 曲：方容國，Kim Chang Lak，Devil Cat</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="FERMATA" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G4i-KC-Vio">
+                                <rect key="frame" x="21" y="222" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uY3-3g-fbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740" y="2101"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yqQ-XD-dDY">
+            <objects>
+                <viewController id="Lrg-am-mgO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cHL-OC-oPb"/>
+                        <viewControllerLayoutGuide type="bottom" id="iKz-Is-K2Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e1l-ud-NYG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flat,800x800,075,f.u2" translatesAutoresizingMaskIntoConstraints="NO" id="7mQ-IK-ka8">
+                                <rect key="frame" x="0.0" y="56" width="375" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Pray (주소서)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7KK-Bt-yQB">
+                                <rect key="frame" x="28" y="225" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lxg-e7-iPs">
+                                <rect key="frame" x="36" y="310" width="302" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">你的咽喉被扼緊 
+那麼多的厭惡 怨恨 和痛苦 
+這個安靜的房間
+把疲倦的你埋葬 
+誰也不會抓住你的手 
+大家都遠遠地避開你 
+他們大概都因為你挖苦的想法和話語 
+而哭泣了很多次吧 
+為什麼把你往推進迷宮裡 
+相信相信相信你 
+在眼裡映出黑白的 Mirror 
+我即使懦弱 
+也可以安慰你到最後 
+自由要怎麼阻擋 
+理解你 斗膽擁抱你 
+無言的閉上雙眼 
+請聽一聽這隻柔弱的小羊的呼喊吧 
+
+請赦免我邪惡的罪吧 
+Do you know that, you know that 
+請賜予我勇氣 愛 和智慧吧 
+給我給我給我給我光吧 
+
+請一定要讓我可以呼吸 什
+麼都好 讓我能依靠著繼續活下去 
+請引導即將熄滅的我吧 
+給我給我給我給我光吧 
+
+無法呼吸 閉上雙眼 
+讓黑暗發酵 再放進心裡 
+有人能和我一起不幸嗎 
+這樣悲觀的我 
+據說下輩子 也會和現在一樣 好吧 
+我也沒有什麼可以期待的了 
+誰會靠近你這樣的人 
+借給你肩膀呢 
+無法在你的身體裡找到自己 
+你太讓人怨恨 
+明天的太陽 
+沒有靠近的自信 
+這片天空為什麼因為 
+你 成為了自己的神 而陰沉 
+在被獨自隔離的人生中 
+
+渴望著被隔離 
+雙耳屬於淒涼的風聲 
+絕望之中 連曾經迫切的夢想 
+也在你面前 雙膝下跪 
+在名為現實的江水中 Diving dyin wave 
+我還活著 為什麼卻沒有答案 
+向無罪的世界發問 
+你清楚地知道 我的人生 不是嗎 
+I'll pray for myself 
+Be brave for my last 
+現在想要感受到你的存在 
+明確的告訴我 
+想要給自己指出方向 
+讓你從這一晚的萬幸開始 
+到自由之花能開放的程度為止 
+我們一定要到那懸崖邊上 
+才能看到光吧 
+
+請赦免我邪惡的罪吧 
+Do you know that, you know that 
+請賜予我勇氣 愛 和智慧吧 
+給我給我給我給我光吧 
+
+請一定要讓我可以呼吸 什
+麼都好 讓我能依靠著繼續活下去 
+請引導即將熄滅的我吧 
+給我給我給我給我光吧 
+
+請賜予我不會倒下的勇氣吧 
+請賜予我拋棄惡的機會吧 
+請賜予我人生中 每一個人愛吧 
+在這黑暗中 請為我照亮一條路吧 
+代替憤怒和恐慌 
+請給予我安寧的平和吧 
+請賜予我能夠攥緊並傳達希望的巨大力量吧 
+
+請赦免我邪惡的罪吧 
+Do you know that, you know that 
+請賜予我勇氣 愛 和智慧吧 
+給我給我給我給我光吧 
+請一定要讓我可以呼吸 
+什麼都好 讓我能依靠著繼續活下去 
+請引導即將熄滅的我吧 
+給我給我給我給我光吧</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T0q-eh-cP3">
+                                <rect key="frame" x="36" y="265" width="302" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：方容國，ZELO 
+作 曲：方容國，Kim Chang Lak
+編 曲：Kim Chang Lak</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ap1-e0-ejz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="728.79999999999995" y="2777.8110944527739"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="zD0-l1-MzK">
+            <objects>
+                <tableViewController id="hAE-VR-Yfl" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cCd-kB-PSI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.22737853468417885" green="0.23066945911845171" blue="0.24751560413158002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="Album Track" id="tGZ-KK-lG4">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="6YP-Kb-pyF" detailTextLabel="jHn-NU-gH7" rowHeight="48" style="IBUITableViewCellStyleValue1" id="Eif-rS-ASL">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="48"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Eif-rS-ASL" id="4za-5v-SNS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="LE NOIR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6YP-Kb-pyF">
+                                                    <rect key="frame" x="15" y="14" width="66" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="2:29" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jHn-NU-gH7">
+                                                    <rect key="frame" x="325" y="14" width="35" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="y7F-xZ-gKv" kind="show" id="0JQ-5M-A6Q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="FY1-tM-Fgf" detailTextLabel="rD0-rO-LGd" rowHeight="49" style="IBUITableViewCellStyleValue1" id="1YI-Rj-OQy">
+                                        <rect key="frame" x="0.0" y="76" width="375" height="49"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1YI-Rj-OQy" id="Jn1-Ka-7C7">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="48.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="SKYDIVE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FY1-tM-Fgf">
+                                                    <rect key="frame" x="15" y="14" width="69" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:56" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rD0-rO-LGd">
+                                                    <rect key="frame" x="324" y="14" width="36" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="Ykg-PB-tud" kind="show" id="Qjc-KW-cnE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Q0W-8h-iVQ" detailTextLabel="WZa-hM-udQ" rowHeight="46" style="IBUITableViewCellStyleValue1" id="XaR-Vj-RSP">
+                                        <rect key="frame" x="0.0" y="125" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XaR-Vj-RSP" id="cdp-be-yLB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="RIOON IN THE SKY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q0W-8h-iVQ">
+                                                    <rect key="frame" x="15" y="13" width="147" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:28" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WZa-hM-udQ">
+                                                    <rect key="frame" x="324.5" y="13" width="35.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="PmS-wl-NIZ" kind="show" id="FSs-H3-MaP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="TDD-4H-wCJ" detailTextLabel="qZo-KX-LQC" rowHeight="46" style="IBUITableViewCellStyleValue1" id="LbV-BU-sNN">
+                                        <rect key="frame" x="0.0" y="171" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LbV-BU-sNN" id="3gO-F3-vGb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="KILLER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TDD-4H-wCJ">
+                                                    <rect key="frame" x="15" y="13" width="54" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:33" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qZo-KX-LQC">
+                                                    <rect key="frame" x="324.5" y="13" width="35.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="ae2-dC-XQj" kind="show" id="KBb-Aw-zbH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="1ea-pM-0Sa" detailTextLabel="FhE-AG-eTf" rowHeight="46" style="IBUITableViewCellStyleValue1" id="djM-HJ-bQ9">
+                                        <rect key="frame" x="0.0" y="217" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="djM-HJ-bQ9" id="jlC-w1-CpT">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="FERMATA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1ea-pM-0Sa">
+                                                    <rect key="frame" x="15" y="13" width="74" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:24" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FhE-AG-eTf">
+                                                    <rect key="frame" x="324.5" y="13" width="35.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="XkK-VU-pDf" kind="show" id="fBB-qW-zt0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="GeX-CU-Ele" detailTextLabel="5Aq-eU-nfg" rowHeight="46" style="IBUITableViewCellStyleValue1" id="vsY-Ds-3UE">
+                                        <rect key="frame" x="0.0" y="263" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vsY-Ds-3UE" id="hES-zW-J3X">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Pray (주소서)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GeX-CU-Ele">
+                                                    <rect key="frame" x="15" y="13" width="94" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:52" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Aq-eU-nfg">
+                                                    <rect key="frame" x="324.5" y="13" width="35.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="Lrg-am-mgO" kind="show" id="mAZ-VK-PJ2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="95Y-7l-I5m" detailTextLabel="m6z-yY-7Y6" rowHeight="46" style="IBUITableViewCellStyleValue1" id="8ki-bS-fpX">
+                                        <rect key="frame" x="0.0" y="309" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8ki-bS-fpX" id="r7G-CJ-VDS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="I GUESS I NEED U" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="95Y-7l-I5m">
+                                                    <rect key="frame" x="15" y="13" width="137.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m6z-yY-7Y6">
+                                                    <rect key="frame" x="324.5" y="13" width="35.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="j9V-JA-zaS" kind="show" id="NlR-Ia-tTW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="tda-ks-jrM" detailTextLabel="rjP-KC-Q1z" rowHeight="46" style="IBUITableViewCellStyleValue1" id="Gmr-jW-Rgx">
+                                        <rect key="frame" x="0.0" y="355" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gmr-jW-Rgx" id="zO7-Cj-qUF">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="CHIQUITA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tda-ks-jrM">
+                                                    <rect key="frame" x="15" y="13" width="77.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="2:55" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rjP-KC-Q1z">
+                                                    <rect key="frame" x="324.5" y="13" width="35.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="R1h-Iz-7h8" kind="show" id="rQm-zm-o9h"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="EPV-3q-KWn" detailTextLabel="TDu-Tc-Me9" rowHeight="46" style="IBUITableViewCellStyleValue1" id="RrV-WV-djV">
+                                        <rect key="frame" x="0.0" y="401" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RrV-WV-djV" id="ZEJ-he-Q4g">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Walk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EPV-3q-KWn">
+                                                    <rect key="frame" x="15" y="12" width="37" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:56" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TDu-Tc-Me9">
+                                                    <rect key="frame" x="324" y="12" width="36" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="DNP-FF-Sgb" kind="show" id="IIy-wg-stn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="itu-tj-xuU" detailTextLabel="I6I-2d-niW" rowHeight="46" style="IBUITableViewCellStyleValue1" id="43c-q8-KQ3">
+                                        <rect key="frame" x="0.0" y="447" width="375" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="43c-q8-KQ3" id="Z0N-H4-aeK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Now (지금)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="itu-tj-xuU">
+                                                    <rect key="frame" x="15" y="13" width="79.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I6I-2d-niW">
+                                                    <rect key="frame" x="327" y="13" width="33" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="yab-t7-3QW" kind="show" id="SGO-Cm-YyN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="hAE-VR-Yfl" id="zR7-xs-Lcu"/>
+                            <outlet property="delegate" destination="hAE-VR-Yfl" id="Niy-2g-dgT"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lGh-eo-0xn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="1428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="juk-1p-w1s">
+            <objects>
+                <viewController id="Vg9-em-kqE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F9J-w8-wga"/>
+                        <viewControllerLayoutGuide type="bottom" id="ijp-va-QcZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W78-u0-hYi">
+                        <rect key="frame" x="0.0" y="0.0" width="278" height="489"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vt5-SK-h15">
+                                <rect key="frame" x="0.0" y="0.0" width="269" height="489"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">내 안의 또 다른 날 깨워  
+喚醒我心中的另一個我吧
+꺼져있던 희미한 불빛  
+快要熄滅的微弱燈光
+Wake me up 
+눈을 떠 睜開眼
+Yeah wake me up
+
+여긴 끝이 없는 터널  
+這裡是沒有盡頭的隧道
+어둠 속 빛을 다 잃어버린  
+黑暗中失去了所有的光芒
+Wake me up Wake me up
+
+날 찾아내야 해  我要找回自己
+한계를 뛰어넘어  跨越侷限
+이대로 멈출 순 없어  不能就這樣停止
+Wake me up Wake me up
+
+Wake Up 
+We've pressed for time
+어느새 그 순수했던  不知不覺那個純真
+애는 컸어  孩子已經長大了
+이젠 내가 불안한 現在叫醒我的不安
+사회에 주체를 깨워  是社會的職責
+새로운 나와 이야기를 나눠  和新的我交談
+내 삶의 값은 我生命的價值
+가치를 매길 수 없어 沒辦法確定
+남과 바꿀 수 없는 life uh  
+不難和其他人交換的 life uh
+우리의 현실이란 現實對我們而言
+가마솥에 죄다 넣어 是被禁錮的罪
+삶은 고통이기에  對於痛苦
+내가 할 수 있는 건. 我可以做到的
+미칠 듯 부르는 이 노래 Ye  
+瘋了似的唱著這首歌 Ye
+It may wake
+매해 목표까지의 Lane   
+每天向目標前進的 Lane
+You ain't be late 
+경주마처럼 뛰어 像賽馬一樣奔跑
+자신을 위해  為了自己
+
+내 안의 또 다른 날 깨워 
+ 喚醒我心中的另一個我吧
+꺼져있던 희미한 불빛 
+快要熄滅的微弱燈光
+Wake me up 
+눈을 떠 睜開眼
+Yeah wake me up
+
+더 늦기 전 날 일으켜  
+更晚之前把我叫醒
+새로워진 내 심장 속 떨림  
+我心中全新的悸動
+Wake me up 
+소리쳐  大聲喊叫
+Yeah wake me up
+
+어질러진 퍼즐 
+把混亂的拼圖
+하나 둘씩 또 맞춰간 
+一個兩個再拚起來的
+Game 
+Wake me up Wake me up
+
+지금의 날 믿어  相信現在的我
+Oh 나를 향해 던진  Oh 投向我
+물음표 없는 그 질문들 
+ 那沒有問號的問題
+Wake me up Wake me up
+
+Vive la Revolution
+정신 바짝 차려 打起精神吧
+널 집어삼킨 착각  把你吞噬的錯覺
+회색 빛깔 도시들에 탁한 
+灰色都市中混濁的
+공기와 차가워진 온기는 
+空氣和變冷的溫度
+썩어빠진 뇌와 척추에 옮지  
+蔓延到頹廢的大腦和脊隨
+자각해 타락해버린 진실  
+覺悟吧 那些墮落的真實
+분열된 주체 속의 껍질  
+分裂了職責的軀殼
+FREE LOVE REAL ILL
+
+내 안의 또 다른 날 깨워  
+喚醒我心中的另一個我吧
+꺼져있던 희미한 불빛  
+快要熄滅的微弱燈光
+Wake me up 
+눈을 떠 睜開眼
+Yeah wake me up
+더 늦기 전 날 일으켜  
+更晚之前把我叫醒
+새로워진 내 심장 속 떨림  
+我心中全新的悸動
+Wake me up 
+소리쳐  大聲喊叫
+Yeah wake me up
+Woo Wake me up 
+눈을 떠 睜開眼
+Yeah wake me up
+Woo Wake me up 
+소리쳐 大聲喊叫
+Yeah wake me up
+
+다시 살아나는 감각  再次醒來的感覺
+눈 앞에 열린  跟著出現在眼前
+이 길을 따라 的這條路
+Wake me up Wake me up
+새로운 세상에  嶄新的世界
+
+세상이 원했던 답은 世上想得到的答案
+절실함에 눈멀어 對真實感的癡迷
+목소리를 내는 것 發出聲音 把我
+나를 다 펼쳐내  全部表達出來
+지체가 돼도 계속해 걸어 即使延遲也要繼續
+고민을 버려  把煩惱拋開
+그런 현실의 네게  那種真實的你
+수혜는 Butter  是受益的 Butter
+Yeah wake me up
+이젠 새로운 나를 펼쳐내 
+現在起展現全新的我
+What
+
+이 순간 내 모든걸 던져  
+在這瞬間丟棄我的所有
+숨겨왔던 진실을 찾아  
+尋找隱藏的真實
+Wake me up 
+눈을 떠  睜開眼
+Yeah wake me up 
+내 안의 영혼까지  連同我的靈魂
+전부 남김없이 다 불태워  
+全都毫無保留的燃燒
+Wake me up 
+다 깨워  都喚醒
+Yeah wake me up 
+
+Woo Wake me up 
+날 깨워  喚醒我
+Yeah wake me up 
+
+Woo Wake me up 
+날 깨워. 喚醒我
+Yeah wake me up </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="roT-Uc-o8T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3923" y="-140"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZlL-PR-dEF">
+            <objects>
+                <viewController id="6Wn-3a-sEY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dOk-FK-X48"/>
+                        <viewControllerLayoutGuide type="bottom" id="xMR-4a-IEi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xhu-yv-36R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="173"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C6Sp7foU8AAntBd" translatesAutoresizingMaskIntoConstraints="NO" id="D7t-6y-TzY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WbU-Wq-Qgi">
+                                <rect key="frame" x="59" y="99" width="269" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作詞 Zelo, 方容國, Mafly, Keyfly
+作曲 Gabriel Brunell Brandes, David Fremberg, Secret Weapon
+編曲 Gabriel Brunell Brandes, David Fremberg, Secret Weapon</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="9"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="WAKE ME UP" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RkD-Gv-Dla">
+                                <rect key="frame" x="59" y="64" width="262" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AlB-lg-Mba">
+                                <rect key="frame" x="59" y="-349" width="278" height="489"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="Vg9-em-kqE" kind="embed" id="sIP-bF-eVU"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LwU-FW-IC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3241" y="-452"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hvb-pI-CAR">
+            <objects>
+                <viewController id="hhN-Ws-Xzb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4kt-QH-U45"/>
+                        <viewControllerLayoutGuide type="bottom" id="deS-zF-H4g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ohg-nS-Cey">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="173"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20170222_youngjae-2" translatesAutoresizingMaskIntoConstraints="NO" id="EOK-7f-NcU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N98-Vb-l3i">
+                                <rect key="frame" x="59" y="99" width="269" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作詞 方容國
+作曲 Choi Jin Suk, Aaron Benward
+編曲 Choi Jin Suk</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="9"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="DIAMOND 4 YA" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DBY-91-HEH">
+                                <rect key="frame" x="59" y="64" width="262" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BaJ-vy-P37">
+                                <rect key="frame" x="59" y="-349" width="278" height="489"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="2d1-7I-3sT" kind="embed" id="sYE-v1-12p"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDd-65-h4d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3258" y="-118"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NYl-6T-UoN">
+            <objects>
+                <viewController id="2d1-7I-3sT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xf6-KP-cUv"/>
+                        <viewControllerLayoutGuide type="bottom" id="qDI-7B-O1d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wWp-Lu-oMo">
+                        <rect key="frame" x="0.0" y="0.0" width="278" height="489"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6uj-DI-5l1">
+                                <rect key="frame" x="0.0" y="0.0" width="278" height="489"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">불이 타오르듯  
+像燃燒升騰的火焰 빛 속에서 널 찾았어
+ 在火光中找到你 되찾은 삶의 이유 
+ 重心找回人生的理由  그 찰나에 뭘 봤을까  
+在那瞬間看到了什麼呢 네 향기가 모든 걸 잊게 해 다  
+你的香氣讓我忘記了這一切
+Your love Your way 갈 길을 잃어야만
+失去了前方的路 
+만날 수 있는 이름 才能遇見的那個名字 
+Your love Your way 본능을 따라간 기적
+跟隨本能的奇蹟 (yeh yeh ya)
+
+넌 내게 유일해 你是我的唯一
+무엇과도 바꿀 수 없어 什麼都無法代替
+Diamond 4 ya Diamond 4 ya 넌 나의 전부야 你是我的一切
+내가 살아가는 이유야 是我活下去的理由
+Diamond 4 ya Diamond 4 ya (Woo Woo)
+시련 속에 활짝 피어난 네가
+在試煉中盛開的  만들어낸 멜로디
+你創作的旋律
+ (Woo Woo) 곁에서 항상 속삭여줘 在我身邊不停的低語 
+계속 갈 수 있게 잡아줘 날
+抓緊我 讓我能夠繼續走下去
+
+깊이 안아줘 深深的擁抱我吧
+검붉은 세포에 다가와줘 靠近我炙熱的細胞
+단면 속 컬러풀한 너에 대한 斷面上光彩奪目的你
+환상에 빠져 박자에 맞춰 陷入幻想 跟上節拍
+worrrrd up
+Slow it down down down (you) 지적인 아름다움 다움 다움 우린
+知性的魅力 어떤 말로 감히 형용할 수 없어
+用什麼樣的語言都不能形容 크게 뜨거워진 나를 느껴봐
+感受越來越滾燙的我吧
+Right now, Uh
+ Your love Your way
+갈 길을 잃어야만
+失去了前方的路 
+만날 수 있는 이름
+才能遇見的那個名字
+Your love Your way
+본능을 따라간 기적
+跟隨本能的奇蹟(yeh yeh ya)
+
+넌 내게 유일해
+你是我的唯一
+무엇과도 바꿀 수 없어
+什麼都無法代替
+Diamond 4 yaDiamond 4 ya
+넌 나의 전부야
+你是我的一切
+내가 살아가는 이유야
+是我活下去的理由
+Diamond 4 yaDiamond 4 ya
+(Woo Woo)
+시련 속에 활짝 피어난 네가
+在試煉中盛開的 
+만들어낸 멜로디
+你創作的旋律
+ (Woo Woo)
+곁에서 항상 속삭여줘
+在我身邊不停的低語 
+계속 갈 수 있게 잡아줘 날
+抓緊我 讓我能夠繼續走下去
+ 너와 함께 한다면
+和你在一起 두려울 게 없어 난
+沒有什麼值得害怕 그 무엇도 그 무엇도
+一切都 一切都 투명하게 비치는
+慢慢的往你 네 맘속에 조금씩
+清晰可見的心裡 담아봐 날 담아봐 날
+裝進我吧 裝進我吧 
+
+넌 내게 유일해
+你是我的唯一
+무엇과도 바꿀 수 없어
+什麼都無法代替
+Diamond 4 yaDiamond 4 ya
+
+넌 나의 전부야
+你是我的一切
+내가 살아가는 이유야
+是我活下去的理由
+Diamond 4 yaDiamond 4 ya
+
+시련 속에 활짝 피어난
+在試煉盛開的 네가 만들어낸 멜로디
+你創作的旋律
+곁에서 항상 속삭여줘 在我身邊不停的低語 
+계속 갈 수 있게 讓我能夠繼續走下去 
+Diamond 4 ya</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ST2-4n-QW7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3923" y="363"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qa0-Xs-hiQ">
+            <objects>
+                <viewController id="PmS-wl-NIZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xPg-Rp-HC4"/>
+                        <viewControllerLayoutGuide type="bottom" id="es2-zb-jes"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="biH-56-yEz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B.A.P-e1478171954741" translatesAutoresizingMaskIntoConstraints="NO" id="BEe-Jt-uI4">
+                                <rect key="frame" x="0.0" y="43" width="375" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CeU-Du-oOR">
+                                <rect key="frame" x="36" y="310" width="302" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Yeah, let's get it! 
+Ribbon in the sky 
+Ribbon in the sky 
+
+Whoa Get away, I'm Mr.Bang 
+嘲笑那力量 會讓我生氣 
+Replay the game 
+處於支配地位的多數媒體是 Fiction 
+閉上眼睛 
+各種舞弊 腐敗是 Option 
+閉上嘴 Whoa 
+
+Bring it on (Oh!) 
+沒意思了吧 
+故人物的風氣是腐朽 
+貪欲的眼 這是只屬於他們的盛宴 
+再也無處可逃了 
+
+我們知道我們的價值 
+Tell me 'bout it 
+反抗到底 Crazy 
+
+Break it down 
+Break it down 
+Ribbon in the sky 
+
+Break it down 
+Break it down 
+準備好了 C'mon big boy 
+War is Over
+拚命尖叫 你的聲音再高 Yeh, Yeh, Yeh, Yeh 
+Ribbon in the sky (E-O-E-O-Uh)
+
+令人厭惡的系統 It's like pyramid 
+像隨手拿的零食一樣 被吃掉的小魚乾 
+Fade out, Fade out yo 
+再睜大雙眼看看 
+被刻入人心的 Rule 
+全部踩碎 All-in, Alwayz (Oh yehh) 
+
+Bring it on (Oh) 像個傻瓜 
+再也不願意屈服 Ye, Get' cha 
+把蹂躪我的謊言都收走 
+再也不想隱藏了 
+
+我們知道我們的價值 
+Tell me 'bout it 
+反抗到底 Crazy 
+
+Break it down 
+Break it down 
+Ribbon in the sky 
+
+Break it down 
+Break it down 
+準備好了 C'mon big boy 
+War is over 
+拚命尖叫 你的聲音再高 Yeh, Yeh, Yeh, Yeh 
+Ribbon in the sky (E-O-E-O-Uh) 
+要飛到那天空上去 
+別忘記 即使被雲朵擋住 I know 
+記住 Oh, Ribbon in the sky 
+
+Break it down 
+Break it down 
+Ribbon in the sky 
+
+Break it down 
+Break it down 
+準備好了 C'mon big boy War is Over 
+拚命尖叫 你的聲音再高 Yeh, Yeh, Yeh, Yeh Ribbon in the sky (E-O-E-O-Uh)</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1yx-pJ-5cA">
+                                <rect key="frame" x="41" y="257" width="302" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：方容國，Kim Chang Lak 
+作 曲：方容國，Kim Chang Lak 
+編 曲：方容國，Kim Chang Lak </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="RIBBON IN THE SKY" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fqo-Dh-6wP">
+                                <rect key="frame" x="6" y="216" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Be-mf-dbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14" y="2633"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FUq-vL-L8T">
+            <objects>
+                <viewController id="ae2-dC-XQj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fd2-fn-sVZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="rBg-cH-946"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bxQ-Ch-8GQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BAPWakeMeUp" translatesAutoresizingMaskIntoConstraints="NO" id="Wb5-5S-VEI">
+                                <rect key="frame" x="0.0" y="43" width="375" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="53t-EH-pvQ">
+                                <rect key="frame" x="36" y="310" width="302" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">She got the rhythm of my heart 
+心臟跳動的感覺 
+Her style's like hit'em (Oh my god) 
+無論誰都無法解脫出來 
+
+一看感覺就來臨 Feel it 
+想要畫面本身 追求本能 
+
+緊張起來 全部都 Fallin'
+瞄準完了 在我心臟之上 Oh 
+She got this heart 把我變得瘋狂 
+She got this heart 我的眼裡只看得見你 
+使我倒下 使我笑 所有人都只這樣叫你
+
+Yeah She's the killer Bang Bang 
+Yeah She's the killer Bang Bang 
+Yeah She's the killer for my soul 
+沒有辦法 我的心臟在那女人的手上 
+She got my heart 
+
+你把我隨意拿捏 肆意後擺弄的 Girl 
+像爆發一樣 越陷越深的 Soul 
+靠得越近 我就彷彿不能呼吸 
+我的心臟緊張起來 
+
+I Need U, Darlin' 只要有你好 
+我愛你，wo ai ni 
+我們倆的眼神好像被融化 
+I Feel So Hot 好炙熱
+ 
+一看感覺就來臨 Feel it 
+想要畫面本身 追求本能 
+緊張起來 全部都 Fallin' 
+瞄準完了 在我心臟之上 Oh 
+
+She got this heart 把我變得瘋狂 
+She got this heart 我的眼裡只看得見你 
+使我倒下 使我笑 所有人都只這樣叫你 
+
+Yeah She's the killer Bang Bang 
+Yeah She's the killer Bang Bang 
+Yeah She's the killer for my soul 
+沒有辦法 我的心臟在那女人的手上 
+She got my heart 
+
+Ay 把我的心臟給撕成一條一條 
+是你 只要是你就好 我只是你的奴隸 
+在火光中的漫漫長夜擁有你 
+想要安詳的閉上雙眼 
+Eh-Oh, Eh-Oh Wah 
+
+帶走我的呼吸 使其停止 
+連呼吸聲都變得粗糙 
+太過閃爍 光彩奪目 
+在目標之上的我 
+
+即使沒有能給的也要再給 
+任其自然地無理數 
+我到底要怎麼做 
+
+She got this heart 把我變得瘋狂 
+She got this heart 我的眼裡只看得見你 
+使我倒下 使我笑 所有人都只這樣叫你 
+
+Yeah She's the killer Bang Bang 
+Yeah She's the killer Bang Bang 
+Yeah She's the killer for my soul 
+沒有辦法 我的心臟在那女人的手上 
+She got my heart</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SVH-69-PxH">
+                                <rect key="frame" x="41" y="257" width="302" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：方容國，Kim Tae Wan
+作 曲：Ye-Yo!，Kim Tae Wan
+編 曲：Ye-Yo!</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="KILLER" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1md-Qe-AGv">
+                                <rect key="frame" x="6" y="216" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QR0-qY-0OU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14" y="3201"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yrg-4q-WQz">
+            <objects>
+                <viewController id="j9V-JA-zaS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yLc-Od-hh6"/>
+                        <viewControllerLayoutGuide type="bottom" id="mK6-7n-G5S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WTq-XY-6w2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BAP_1489280351_af_org" translatesAutoresizingMaskIntoConstraints="NO" id="fD3-Ee-sML">
+                                <rect key="frame" x="0.0" y="37" width="375" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FkM-ZH-wsy">
+                                <rect key="frame" x="36" y="310" width="302" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">我今晚也為了能夠入眠 
+今天也是混合喝的酒 
+還有理所當然地找去的 你家 
+我要如何遺忘 稱作你的香水 
+這樣不行 不行吧 
+但是與你相遇 又燒起來了 你和我 
+
+已經回去 時間太晚 
+在你身邊 這樣又閉上雙眼 
+
+直到深夜 只有你 
+
+像要爆炸一樣 想要抱著你的我 
+現在這一瞬間 在你額頭 
+害怕我會 就這樣 貼上我的嘴唇 
+
+只要想到你 Crazy Crazy Crazy 
+今天也要尋找你 
+你閃耀的 Body 線條 
+I Guess I Need U 
+好的 Guess I Need U All Day 
+
+像要爆炸 
+我的心臟 你來勸慰 
+Baby 沒有明天 不知道 
+想要更加打開看看的我 
+
+慢慢地 Move It 
+更深地 Make It 
+現在這一瞬間 
+僅僅只有你和我的 Paradise 
+
+無法分開 現在 
+I Guess I Need U (Yes!) 
+Guess I Need U All Day 
+
+期待躺在我的黑色沙發上 
+WHOA-WHOA-WHOA-WHOA 
+只要我們倆的秘密 
+That's War war war war 
+只到黏著的汗水裹住我們的身體 Yeah 
+那顆星星逃跑了 到收拾行李的時候了
+ Ay-Ay-Ay-Ay 
+
+你不是也想要我嗎 
+
+那餘暉灑下 光芒圍繞著我們 
+一定會使我們笑著 Lady 
+Woo, 秘密的 Story Story Story 
+今天也要尋找你 (Need U Gril) 
+
+你閃耀的 Body 線條 
+I Guess I Need U 
+好的 Guess I Need U All Day 
+
+像要爆炸 
+我的心臟 你來勸慰 
+Baby 沒有明天 不知道 
+想要更加打開看看的我 
+
+慢慢地 Move It 
+更深地 Make It 
+現在這一瞬間 
+僅僅只有你和我的 Paradise 
+
+無法分開 現在 
+I Guess I Need U (Yes!) 
+Guess I Need U All Day 
+
+無法停止 I Lose Control 
+
+你閃耀的 Body 線條 
+I Guess I Need U 
+好的 Guess I Need U All Day 
+像要爆炸 
+我的心臟 你來勸慰 Baby 
+沒有明天 不知道 
+想要更加打開看看的我
+ 
+慢慢地 Move It 
+更深地 Make It 
+現在這一瞬間 
+僅僅只有你和我的 Paradise 
+
+無法分開 現在 
+I Guess I Need U (Yes!) 
+Guess I Need U All Day</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yTl-wr-dlf">
+                                <rect key="frame" x="41" y="257" width="322" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：方容國,Zelo,Park Soo Seok,Kim Chang Lak,Park Eun Woo
+作 曲：Park Soo Seok，Kim Chang Lak
+編 曲：Park Soo Seok，Kim Chang Lak</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="I GUESS I NEED YOU" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bFu-Mb-xsP">
+                                <rect key="frame" x="26" y="219" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RKN-Ol-bqW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1511" y="1151"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IKQ-Zc-hym">
+            <objects>
+                <viewController id="R1h-Iz-7h8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wCd-gj-HjE"/>
+                        <viewControllerLayoutGuide type="bottom" id="MJk-cz-qlb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wec-ce-1Cv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="120816_bap_skydive_01" translatesAutoresizingMaskIntoConstraints="NO" id="SVC-MW-UKg">
+                                <rect key="frame" x="0.0" y="37" width="375" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="CHIQUITA" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aqh-kw-O2b">
+                                <rect key="frame" x="22" y="203" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6lX-PR-TmQ">
+                                <rect key="frame" x="36" y="295" width="302" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">你真的讓人窒息 
+呼吸如同被堵住一般 
+
+你無論怎麼看都漂亮 
+始終如少女一般 
+就像 (Oh!) 將我的心臟狙擊 Bang Bang
+
+噓，沒有任何預告 
+走進了我 knock 也沒有 
+
+Uh 要公開你 
+要強制將你從這世界帶走 
+不是嘛 我也不知道了 
+那你的美 就如同藝人一般 
+只能得到無法隱藏這一結論 
+你也如此嗎 
+
+一下子就沉迷了 
+You know I love you BAE 
+
+比起任何人 都只想珍惜你 
+You are my Chiquita 
+You are my Chiquita 
+什麼話也不用說 將我緊緊抱住 
+You are my Chiquita 
+You are my Chiquita 
+
+Listen! (Oh!) Chiquita-ta 
+你是 wo de, 對此 No doubt 
+別的答案 (No) 
+Yeah 好想擁有你這樣的女人 
+Sure thing! (Oh!) 
+感嘆自然而然流出 Ah-yeah 
+為何如此美麗 
+連搭話都覺得可惜 
+
+Get it, 性感的你的翹臀 Bow wow 
+優美的骨盆曲線 I can drown now 
+對我 Man to man 這太美妙了 
+Tight 的衣服穿起來 Right now 
+
+一下子就沉迷了 
+You know I love you BAE 
+
+比起任何人 都只想珍惜你 
+You are my Chiquita 
+You are my Chiquita 
+什麼話也不用說 將我緊緊抱住 
+You are my Chiquita 
+You are my Chiquita  
+
+You are my Chiquita 
+You are my Chiquita 
+
+You are my Chiquita 
+You are my Chiquita 
+
+You are my Chiquita 
+You are my Chiquita 
+
+You are my Chiquita 
+我的一切都將 展現在你面前 
+You are my Chiquita 
+You are my Chiquita 
+比起任何語言 我 一定會守護你 
+You are my Chiquita 
+You are my Chiquita 
+
+我的一切都將 展現在你面前 
+You are my Chiquita 
+You are my Chiquita 
+比起任何語言 我 一定會守護你 
+You are my Chiquita 
+You are my Chiquita</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RFe-KX-icy">
+                                <rect key="frame" x="37" y="242" width="322" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：方容國，Mafly，Keyfly，Kim Chang Lak
+作 曲：Erik Lidbom，Ylva Dimberg
+編 曲：Erik Lidbom</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="asv-ZQ-daE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1510" y="1690"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7uk-gy-EM9">
+            <objects>
+                <viewController id="DNP-FF-Sgb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="787-sT-giv"/>
+                        <viewControllerLayoutGuide type="bottom" id="GVe-6U-ycv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ubz-Zi-j6P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="-B-A-P-SKYDIVE-MV-bap-39995582-500-220" highlightedImage="-B-A-P-SKYDIVE-MV-bap-39995582-500-220" translatesAutoresizingMaskIntoConstraints="NO" id="ryg-LO-kx9">
+                                <rect key="frame" x="0.0" y="37" width="375" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="WALK" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rsg-DP-tTL">
+                                <rect key="frame" x="22" y="203" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X8C-O2-DNZ">
+                                <rect key="frame" x="36" y="295" width="302" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">不知何時 只有我一人站在街上 
+無數的星星也都在睡覺 
+
+偶爾會想念你 
+看著有你的地方 
+還會記得我嗎 
+你的胡鬧 Babe 
+現在你在哪
+與誰分享著愛 (No No No) 
+無法入眠 
+
+一直走到凌晨 
+(I don't wanna cry, 
+I don't, I don't wanna cry) 
+反正我無法入眠 
+直到早晨來臨 不停呼喚你 
+
+U, Oh baby U, Oh baby U 
+Baby NO NO NO Wah 
+U, Oh baby U 
+今天也反覆地走著 直到忘記你 
+
+依然記得 
+與你的記憶 全部 
+好想念你 
+It's gonna be alright 
+
+冬天的風在我心中劇烈地吹著 
+擺出多餘的微笑 過得還好吧 Ayy, word
+
+偶爾會想念你 
+看著有你的地方 
+還會記得我嗎 
+你的胡鬧 Babe 
+現在你在哪
+與誰分享著愛 (No No No) 
+無法入眠 
+
+一直走到凌晨 
+(I don't wanna cry, 
+I don't, I don't wanna cry) 
+反正我無法入眠 
+直到早晨來臨 不停呼喚你 
+
+U, Oh baby U, Oh baby U 
+Baby NO NO NO Wah 
+U, Oh baby U 
+今天也反覆地走著 直到忘記你 
+
+整夜走的話 能夠全都忘記吧 
+使無法變得更深地想念你 
+（過了凌晨 時間流逝） 
+從你家前走過 或許能看到你 
+
+看著你關著燈的房間 
+不說話地又離開那個地方 
+(Wah Wah Wah Wah) 
+消失消失 如果看不見你的燈光的話 再一次
+
+一直走到凌晨 
+(I don't wanna cry, 
+I don't, I don't wanna cry) 
+反正我無法入眠 
+直到早晨來臨 不停呼喚你 
+
+U, Oh baby U, Oh baby U 
+Baby NO NO NO Wah 
+U, Oh baby U 
+今天也反覆地走著 直到忘記你 
+
+一直走到凌晨 
+(I don't wanna cry, 
+I don't, I don't wanna cry) 
+反正我無法入眠 
+直到早晨來臨 不停呼喚你 
+
+U, Oh baby U, Oh baby U 
+Baby NO NO NO Wah 
+U, Oh baby U 
+今天也反覆地走著 直到忘記你 </mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8h2-cp-uiF">
+                                <rect key="frame" x="37" y="242" width="322" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：Roydo，Wonderkid，Breadbeat，方容國
+作 曲：Wonderkid，Roydo，Breadbeat
+編 曲：Wonderkid，Roydo，Breadbeat</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZSS-z4-Yy0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1509.5999999999999" y="2297.9010494752624"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="frQ-u8-di4">
+            <objects>
+                <viewController id="yab-t7-3QW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uQr-3k-86Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jws-7K-PeK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mFV-e4-oXD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OxXfSf9" highlightedImage="OxXfSf9" translatesAutoresizingMaskIntoConstraints="NO" id="otl-6s-8u6">
+                                <rect key="frame" x="0.0" y="37" width="375" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="NOW" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ocJ-YP-inP">
+                                <rect key="frame" x="22" y="203" width="262" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bZ1-uI-Nd5">
+                                <rect key="frame" x="36" y="295" width="302" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">誰能想到我和你會合適 
+曾經覺得自己一個人很舒服的我 
+並不適合有女人 woo oh 
+從來不覺得孤獨 你也沒有特別吸引我 
+雖然你的確很漂亮 
+但我還以為你會像從前的那些誰一樣 就這樣經過 
+
+現在你無論做什麼 
+那所有的一切 I like like that (like that) 
+現在沒有其他人妨礙的時候 
+想和你兩個人單獨見面 
+
+現在這一瞬間 緊緊抓住我 
+就這樣在我身邊 
+現在這一瞬間 眼神相遇的這一瞬間 
+記住它 明白它 
+你和我的距離再靠近一點 我想要 Girl 
+
+無論去哪兒都想和你一起 
+我從來沒有這樣過 
+你不在的時間無比空虛 yeah 
+我不在的地方 希望你感到無聊 
+握著你的手 想和你一起離開 yeah 
+
+你用那種眼神看著我的時候 
+無法忘記 那個通宵未眠的晚上
+雖然不知道這樣對不對 還是先聽我說吧 Girl 
+
+現在這一瞬間 緊緊抓住我 
+就這樣在我身邊 
+現在這一瞬間 眼神相遇的這一瞬間 
+記住它 明白它 
+你和我的距離再靠近一點 我想要 Girl 
+
+閉上眼睛 就站在那裡 
+不要慌張 
+因為我會擁抱你 
+現在我的感情可能只是暫時的 但我也覺得很好 oh woo~ 
+
+現在這一瞬間 緊緊抓住我 
+就這樣在我身邊 
+現在這一瞬間 緊緊抓住我 
+就這樣在我身邊 
+現在這一瞬間 眼神相遇的這一瞬間 
+記住它 明白它 
+你和我的距離再靠近一點 我想要 Girl</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="txB-Je-l7h">
+                                <rect key="frame" x="37" y="242" width="322" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">作 詞：文鐘業，Ha Joo Ho 
+作 曲：文鐘業，Ha Joo Ho 
+編 曲：Park Soo Seok </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TsW-Tm-4AG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1510" y="2909"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="-B-A-P-SKYDIVE-MV-bap-39995582-500-220" width="500" height="220"/>
+        <image name="111213980_5" width="900" height="1200"/>
+        <image name="111223743_16" width="900" height="1200"/>
+        <image name="111230559_17" width="900" height="640"/>
+        <image name="111238165_30" width="900" height="1200"/>
+        <image name="120816_bap_skydive_01" width="990" height="554"/>
+        <image name="16832230_1225408004242819_3902463532637844966_n" width="750" height="937"/>
+        <image name="16903537_1225408067576146_7028287280252417636_o" width="1080" height="720"/>
+        <image name="16992199_1081929358602353_5909765387037560611_o" width="1024" height="1384"/>
+        <image name="20170222_youngjae-2" width="640" height="427"/>
+        <image name="3d325eab32c4029ff3a431b2f97df7bd" width="564" height="846"/>
+        <image name="84dd9321d035afc81351306a1bf8ffc30cd8a2b4_hq" width="640" height="426"/>
+        <image name="B.A.P-e1478171954741" width="682" height="351"/>
+        <image name="BAP NOIR" width="443" height="600"/>
+        <image name="BAP-Bang-Yong-Guk-Himchan_1487778560_af_org" width="1000" height="500"/>
+        <image name="BAP-Noir" width="940" height="545"/>
+        <image name="BAP-Zelo-Youngjae_1487693104_af_org" width="1000" height="600"/>
+        <image name="BAPWakeMeUp" width="1000" height="667"/>
+        <image name="BAP_1489280351_af_org" width="1000" height="500"/>
+        <image name="C4ytVanVYAAxFSt" width="480" height="720"/>
+        <image name="C6Sp7foU8AAntBd" width="900" height="640"/>
+        <image name="OxXfSf9" width="540" height="300"/>
+        <image name="b.a.p-noir1" width="800" height="426"/>
+        <image name="bap icon7" width="50" height="50"/>
+        <image name="bap-bang-yongguk-hiatus-health-break-rose-teaser-2017" width="900" height="1350"/>
+        <image name="flat,800x800,075,f.u2" width="800" height="534"/>
+        <image name="noir icon4" width="21" height="27"/>
+        <image name="rose bar icon3" width="28" height="26"/>
+        <image name="大賢" width="640" height="426"/>
+    </resources>
 </document>
